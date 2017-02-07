@@ -1,5 +1,5 @@
-# aliases-macos
-terminal aliases + macOs
+# Aliases4terminal
++ macOs
 
 
 ###Spotlight
