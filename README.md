@@ -8,3 +8,10 @@ alias mds_off='sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.
 alias mds_on='sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist'
 ```
 
+
+
+
+###Raw to jpeg
+```
+for i in *.NEF; do sips -s format jpeg $i --out "${i%.*}.jpg"; done
+```
