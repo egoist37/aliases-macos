@@ -13,5 +13,5 @@ alias mds_on='sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.met
 
 ###Raw to jpeg
 ```
-for i in *.NEF; do sips -s format jpeg $i --out "${i%.*}.jpg"; done
+alias raw2jpg='for i in *.NEF; do sips -s format jpeg $i --out "${i%.*}.jpg"; done'
 ```
